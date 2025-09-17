@@ -10,9 +10,22 @@
 		313E114E2E7A7E38005DE873 /* MaskDetectionCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskDetectionCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		313E11602E7A7E6C005DE873 /* Exceptions for "MaskDetectionCamera" folder in "MaskDetectionCamera" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 313E114D2E7A7E38005DE873 /* MaskDetectionCamera */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		313E11502E7A7E38005DE873 /* MaskDetectionCamera */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				313E11602E7A7E6C005DE873 /* Exceptions for "MaskDetectionCamera" folder in "MaskDetectionCamera" target */,
+			);
 			path = MaskDetectionCamera;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,8 @@
 				DEVELOPMENT_TEAM = 98492A9G8X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaskDetectionCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to use the application.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +299,8 @@
 				DEVELOPMENT_TEAM = 98492A9G8X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaskDetectionCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to use the application.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
